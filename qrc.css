@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   background: #fef3ef;
-      background-image: url("https://careylohrenz.com/wp-content/uploads/2012/11/Marine_corps_flag.gif");
+      background-image: url("https://i.pinimg.com/originals/8a/27/04/8a2704c6509b8b08b28b896b13f8b551.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   background: white;
+  opacity: 90%;
   border-radius: 7px;
   overflow: hidden;
   box-shadow: 28px 20px 58px rgba(0, 0, 0, 0.2);
