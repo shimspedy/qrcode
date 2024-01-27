@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR code</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="qrc.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b6b9586b26.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="left">
+        <div id="in">
+          <p>qr code generator</p>
+          <input
+            type="text"
+            name=""
+            id="text"
+            placeholder="ENTER URL"
+            required
+          />
+          <button onclick="qr()">
+            <i class="fa fa-qrcode" aria-hidden="true"></i>
+            Generator QR Code
+          </button>
+        </div>
+      </div>
+      <div id="right">
+        <div id="image"> 
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.1stmlg.marines.mil/units/1st-supply-Bn/"
+            alt=""
+          />
+          <center>Right click to save</center>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="qr.js"></script>
+  </body>
+</html>
