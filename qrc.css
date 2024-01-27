@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   background: #fef3ef;
-      background-image: url("https://i.pinimg.com/originals/8a/27/04/8a2704c6509b8b08b28b896b13f8b551.png");
+    background-image: url("https://i.pinimg.com/originals/8a/27/04/8a2704c6509b8b08b28b896b13f8b551.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #940000;
   opacity: 90%;
   border-radius: 7px;
   overflow: hidden;
