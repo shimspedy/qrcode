@@ -31,44 +31,61 @@
       <input type="range" min="2" step="1" max="20" value="20" id="speed" />
     </div>
     <main>
+
+
+      
       <article>
-        <div id="container">
-
-
-
-
-
-
-
-
-          <div id="left">
-            <div id="in">
-              <h2><span>qr code</span><span>generator</span></h2>
-              <input class="input" type="text" name="" id="text" placeholder="Enter Any data" required />
-              <button onclick="qr()">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <i class="fa fa-qrcode" aria-hidden="true"></i>
-                Generator QR Code
-              </button>
+        <div class="tabs">
+          <input type="radio" name="tabs" id="tabone" checked="checked">
+          <label for="tabone">QR CODE</label>
+          <div class="tab">
+    
+            <div id="container">
+              <div id="left">
+                <div id="in">
+                  <h2><span>qr code</span><span>generator</span></h2>
+                  <input class="input" type="text" name="" id="text" placeholder="Enter Data" required />
+                  <button onclick="qr()">
+                    <i class="fa fa-qrcode" aria-hidden="true"></i>
+                    Generator QR Code
+                  </button>
+                </div>
+              </div>
+              <div id="right">
+                <div id="image">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.1stmlg.marines.mil/units/1st-supply-Bn/" alt="" />
+                </div>
+              </div>
+    
             </div>
+    
           </div>
-          <div id="right">
-            <div id="image">
-              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.1stmlg.marines.mil/units/1st-supply-Bn/" alt="" />
+    
+          <input type="radio" name="tabs" id="tabtwo">
+          <label for="tabtwo">BARCODE</label>
+          <div class="tab">
+    
+            <div id="container">
+              <div id="left">
+                <div id="in">
+                  <h2><span>Enter</span><span>the code</span></h2>
+                  <input class="input is-info" id="entry" type="text" placeholder="Type the code here...">
+                  <button class="button" id="print-button" type="button">
+                    <i class="fa fa-qrcode" aria-hidden="true"></i>
+                    Print Barcode
+                  </button>
+                </div>
+              </div>
+              <div id="right">
+                <div id="image">
+                  <svg id="barcode"></svg>
+                </div>
+              </div>
+    
             </div>
+    
           </div>
-
-
-
-
-
-
-
-
-
+    
         </div>
     
         <div class="window">
