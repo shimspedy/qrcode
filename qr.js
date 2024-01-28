@@ -14,7 +14,7 @@ function qr() {
 }
 
 // Create function barcode
-JsBarcode("#barcode", "123456789");
+
 
 const entry = document.querySelector("#entry");
 const printButton = document.querySelector("#print-button");
