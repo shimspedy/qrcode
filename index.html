@@ -14,6 +14,13 @@
     ></script>
   </head>
   <body>
+
+
+
+
+
+
+
     <label for="theme">
       <span class="sr-only">Toggle Theme</span>
       <input class="sr-only" type="checkbox" id="theme" />
@@ -32,26 +39,57 @@
     </div>
     <main>
       <article>
-        <div id="container">
-          <div id="left">
-            <div id="in">
-              <h2><span>qr code</span><span>generator</span></h2>
-              <input class="input" type="text" name="" id="text" placeholder="Enter Any data" required />
-              <button onclick="qr()">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <i class="fa fa-qrcode" aria-hidden="true"></i>
-                Generator QR Code
-              </button>
+        <div class="tabs">
+          <input type="radio" name="tabs" id="tabone" checked="checked">
+          <label for="tabone">QR CODE</label>
+          <div class="tab">
+    
+            <div id="container">
+              <div id="left">
+                <div id="in">
+                  <h2><span>qr code</span><span>generator</span></h2>
+                  <input class="input" type="text" name="" id="text" placeholder="Enter Data" required />
+                  <button onclick="qr()">
+                    <i class="fa fa-qrcode" aria-hidden="true"></i>
+                    Generator QR Code
+                  </button>
+                </div>
+              </div>
+              <div id="right">
+                <div id="image">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.1stmlg.marines.mil/units/1st-supply-Bn/" alt="" />
+                </div>
+              </div>
+    
             </div>
+    
           </div>
-          <div id="right">
-            <div id="image">
-              <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.1stmlg.marines.mil/units/1st-supply-Bn/" alt="" />
+    
+          <input type="radio" name="tabs" id="tabtwo">
+          <label for="tabtwo">BARCODE</label>
+          <div class="tab">
+    
+            <div id="container">
+              <div id="left">
+                <div id="in">
+                  <h2><span>Enter</span><span>the code</span></h2>
+                  <input class="input is-info" id="entry" type="text" placeholder="Type the code here...">
+                  <button class="button" id="print-button" type="button">
+                    <i class="fa fa-qrcode" aria-hidden="true"></i>
+                    Print Barcode
+                  </button>
+                </div>
+              </div>
+              <div id="right">
+                <div id="image">
+                  <svg id="barcode"></svg>
+                </div>
+              </div>
+    
             </div>
+    
           </div>
+    
         </div>
     
         <div class="window">
@@ -60,97 +98,97 @@
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">Accountability</div>
+                  <div class="item__text">jh3yy</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">Alcohol & Drug Abuse</div>
+                  <div class="item__text">Creative</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">Prohibited Activities & Conduct</div>
+                  <div class="item__text">Performant</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">Readiness Program</div>
+                  <div class="item__text">Bookmark</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">Safety</div>
+                  <div class="item__text">Share</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">SARP</div>
+                  <div class="item__text">CSS!</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">Suicide Awareness</div>
+                  <div class="item__text">Responsive</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">CHAPLAIN</div>
+                  <div class="item__text">Profit</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">BALL PROGRAM</div>
+                  <div class="item__text">Like</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">HISTORY</div>
+                  <div class="item__text">Hover</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">DEPLOYMENT READINESS</div>
+                  <div class="item__text">Gift</div>
                 </div>
               </li>
               <li>
                 <div class="item">
                   <div class="item__icon">
-                     <img src="./usmc.webp">
+    
                   </div>
-                  <div class="item__text">CONTACT</div>
+                  <div class="item__text">Configurable</div>
                 </div>
               </li>
             </ul>
@@ -159,7 +197,12 @@
       </article>
     </main>
 
+
+
+
     <!-- Script JS -->
     <script src="qr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.4/dist/JsBarcode.all.min.js"></script>
+    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
   </body>
 </html>
