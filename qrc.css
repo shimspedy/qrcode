@@ -534,11 +534,11 @@ img {
 #in button:hover {
   background: #FF5733;
   color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #FF5733,
-              0 0 25px #FF5733,
-              0 0 50px #FF5733,
-              0 0 100px #FF5733;
+  border-radius: .5px;
+  box-shadow: 0 0 .5px #FF5733,
+              0 0 2.5px #FF5733,
+              0 0 5px #FF5733,
+              0 0 10px #FF5733;
 }
 
 #in button span {
