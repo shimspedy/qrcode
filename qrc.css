@@ -457,7 +457,7 @@ p {
   padding: 60px 0;
   font-weight: 800;
   text-transform: uppercase;
-  text-decoration: #feb101 3px solid underline;
+  text-decoration: #960000 3px solid underline;
   text-underline-position: under;
 }
 
@@ -471,7 +471,7 @@ p {
   letter-spacing: 1px;
 }
 .input {
-  outline: 2px solid #feb101;
+  outline: 2px solid #960000;
   border: 0 outset;
   height: 2.3rem;
   border-radius: 5px;
@@ -491,14 +491,14 @@ button {
   border: none;
   color: black;
   border-radius: 5px;
-  background: #feb101;
+  background: #960000;
   font-size: 18px;
   font-weight: 800;
   cursor: pointer;
 }
 button:hover {
   background: black;
-  color: #feb101;
+  color: #960000;
 }
 button:active {
   transform: translateY(4px);
@@ -507,7 +507,7 @@ button:active {
 /* Right part */
 
 #right {
-  background: #feb101;
+  background: #960000;
   width: 20rem;
   height: 20rem;
   display: flex;
