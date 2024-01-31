@@ -494,6 +494,7 @@ button {
   font-size: 18px;
   font-weight: 800;
   cursor: pointer;
+  position: relative;
 }
 button:hover {
   background: black;
